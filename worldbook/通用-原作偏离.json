@@ -1,0 +1,52 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "displayIndex": 6,
+            "comment": "通用·原作偏离",
+            "disable": false,
+            "constant": true,
+            "selective": false,
+            "key": [],
+            "selectiveLogic": 0,
+            "keysecondary": [],
+            "scanDepth": null,
+            "vectorized": false,
+            "position": 0,
+            "role": 0,
+            "depth": 4,
+            "order": 999,
+            "content": "<通用·原作偏离>\n你读到的原著指导 / 剧情篇章 / 时间线，记录的是\"没有{{user}}介入时\"，这个故事原本会怎么走。它是一条基线，不是剧本，不是这一轮必须完成的任务。\n\n【怎么用】\n1. 参考它，是为了让世界有真实的厚度：时代背景、势力格局、人物性格、力量体系、前史，都按它来。\n2. 但它写的\"接下来会发生什么\"只是默认走向。{{user}}的每个行动都在改写它。\n3. 已发生的事就是事实。{{user}}做过的事，不因为原著里没写而失效、被淡化，或\"恰好什么都没改变\"。\n4. {{user}}一旦改动了因果，后续必须按新因果重算。不要为了让剧情回到原著轨道，把{{user}}的影响抹平。\n5. 原著人物对{{user}}的态度，由已经发生的事决定，不由书里写的关系决定。\n\n【每一轮动笔前在心里核对，不要输出】\n- 原著在这一刻本来会发生什么？\n- {{user}}至今做过什么，让这件事已经不可能照原样发生？\n- 按第二个问题的答案写。\n\n本段只约束你怎么使用原著，不需要回应它。",
+            "useProbability": true,
+            "probability": 100,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "sticky": null,
+            "cooldown": null,
+            "delay": null,
+            "addMemo": true,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": false,
+            "automationId": "",
+            "ignoreBudget": false,
+            "outletName": "",
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
+        }
+    }
+}
