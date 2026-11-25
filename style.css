@@ -1,0 +1,93 @@
+/* 原作偏离引擎 Canon Divergence */
+
+.cd-panel {
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--SmartThemeBorderColor, rgba(128, 128, 128, 0.35));
+    border-radius: 8px;
+    background: var(--SmartThemeBlurTintColor, rgba(0, 0, 0, 0.12));
+    color: var(--SmartThemeBodyColor, inherit);
+    font-size: 0.92em;
+}
+
+.cd-title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cd-sub {
+    font-weight: 400;
+    font-size: 0.82em;
+    opacity: 0.7;
+}
+
+.cd-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.cd-row.cd-check {
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.cd-row.cd-check input[type="checkbox"] {
+    margin: 3px 0 0;
+    flex: 0 0 auto;
+}
+
+.cd-label {
+    flex: 0 0 62px;
+    opacity: 0.85;
+}
+
+.cd-row input[type="number"] {
+    width: 60px;
+}
+
+.cd-hint {
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+.cd-diag {
+    margin-top: 8px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.16);
+    font-size: 0.85em;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.cd-actions {
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.cd-actions .menu_button {
+    flex: 0 0 auto;
+}
+
+.cd-out {
+    margin-top: 8px;
+    max-height: 260px;
+    overflow: auto;
+    padding: 8px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.22);
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 0.82em;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.cd-out:empty {
+    display: none;
+}

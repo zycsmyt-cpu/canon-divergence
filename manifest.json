@@ -1,0 +1,11 @@
+{
+  "display_name": "原作偏离引擎 Canon Divergence",
+  "loading_order": 120,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "大肥鱼",
+  "version": "0.2.0",
+  "homePage": ""
+}
