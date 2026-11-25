@@ -69,8 +69,17 @@
 
 ## 安装
 
+**方式一：git clone（推荐，能自动更新）**
+
+```bash
+cd <数据目录>/extensions/third-party
+git clone https://github.com/zycsmyt-cpu/canon-divergence.git
 ```
-<数据目录>/extensions/third-party/narrative-balance/
+
+**方式二：手动放文件夹**
+
+```
+<数据目录>/extensions/third-party/canon-divergence/
 ├── manifest.json
 ├── index.js
 ├── style.css
@@ -79,8 +88,8 @@
 
 放好后重启或刷新页面，进「扩展 → 管理扩展」确认出现并已启用。
 
-> 目录名保留 `narrative-balance`（v0.1 叫叙事配重器），避免改动扩展 id。
-> 设置命名空间已从 `narrativeBalance` 迁移到 `canonDivergence`，旧键会被自动读取一次。
+> 目录名用 `canon-divergence`（v0.1 曾叫 `narrative-balance`）。
+> 设置命名空间是 `canonDivergence`，和目录名无关，改目录名不会丢设置。
 
 ## 边界
 
